@@ -1,0 +1,63 @@
+
+body {
+    background-color: #F5F9F6;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(90deg, #2E7D32, #43A047);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Card */
+.container {
+    width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 12px 12px 0px #1B5E20;
+}
+
+/* Título do formulário */
+.container h2 {
+    color: #1B5E20;
+}
+
+/* Inputs */
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #C8E6C9;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+    border-color: #43A047;
+    outline: none;
+    box-shadow: 0 0 5px rgba(67, 160, 71, 0.4);
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1B5E20;
+    transform: translateY(-2px);
+}
